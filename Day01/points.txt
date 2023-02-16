@@ -1,0 +1,222 @@
+Python	-	3.11.x		-	3.9.x
+
+Pycharm Community Edition (open source) - editor
+
+--------------------------------------------
+
+www.python.org
+
+https://www.jetbrains.com/pycharm/download/#section=windows
+
+---------------------------------------------
+
+versions of python
+
+2.x and 3.x (3.7+)
+
+
+-> changes in the syntax
+
+print "hello"			=>	 print("hello")
+
+-> functions that are deprecated -> discarded
+
+
+---------------------------------------------
+
+flavours of python
+------------------
+Cpython 			-	currently using
+
+Jython			-	python code Java
+
+Iron Python 	-  tightly integrated with donet(dotnet libraries)
+
+
+Editors
+-------
+pycharm  CE
+
+vs code	CE
+
+Eclipse
+
+sublime text
+
+Jupyter Notebook
+
+Notepad++
+
+
+-------------------------------------------------------------
+
+1. SDK 	-	has necessary libraries to execute python code
+
+2. Shell	-	interactive environment
+
+3. IDLE  -  Integrated Development Environment
+
+
+---------------------------------------------------------------
+
+Two operators overloaded
+------------------------
++		-	adding numbers, concatenation
+ 
+
+*		-	multiplying numbers, print a string n number of times
+
+
+
+python datatypes 2.x
+--------------------
+
+Number
+
+	a. integers
+	b.	long		-	deprecated
+	c. float
+	d. complex
+
+
+34537834523495623423576867345251236757L
+
+
+Module - Imp
+
+function - reload
+
+from imp import reload
+
+
+Coding Rules
+------------
+
+#!		-	shebang	- used to specify the path of python executable
+
+
+comments
+--------
+# - used for comments - single line comments
+
+
+Strings 
+-------
+are enclosed in '  '  or "  "
+
+
+multiple line strings
+----------------------
+
+"""
+this is a sample string
+and an example for multiline comment
+
+"""
+
+
+'''
+this is a sample string
+and an example for multiline comment
+
+'''
+
+
+def fun(x, y):
+
+	"""
+	funtion fun takes 2 argument and both are of type integers
+	
+	funtion fun returns the prod of the numbers passed
+
+	200 = fun(10, 20)
+
+	"""
+	
+	return x * y
+
+
+help(fun)	=> will display the doc string
+
+print(fun.__doc__)
+
+
+Indentation (tab space)
+-----------------------
+
+def fun()
+
+	print("hello world")
+	print("this is function fun code")
+
+	for i in range(1, 11):
+
+		print("for loop code")
+
+		if i % 2 == 0:
+			
+			print(i)
+			print("if condition code....")
+
+
+Primary data types
+------------------
+1. Numbers
+
+	a. integer
+	b. float
+	c. complex
+
+2. Strings
+
+3. Boolean
+
+
+
+bitwise
+--------
+
+or
+--
+5 = 101
+3 = 011
+    ---
+    111		- 7   
+
+
+and
+---
+5 = 101
+3 = 011
+    ---
+	 001
+
+xor
+---
+5 = 101
+3 = 011
+    ---
+    110
+   
+<<
+--
+5 = 101 	=>	1010	-	2 + 8
+
+8 = 1000 => 10000 - 16	
+
+5 = 101 => 10100	-	20
+
+
+
+control structures
+------------------
+if condition
+
+
+
+
+
+
+
+
+
