@@ -1,0 +1,113 @@
+Strings
+-------
+single line string
+------------------
+
+"this is a string"  or 'this is a string'
+
+
+multiline string
+-----------------
+"""
+the quick brown fox jumps over the lazy dog.
+the quick brown fox jumps over the lazy dog.
+the quick brown fox jumps over the lazy dog.
+the quick brown fox jumps over the lazy dog.
+the quick brown fox jumps over the lazy dog.
+"""
+
+
+'''
+the quick brown fox jumps over the lazy dog.
+the quick brown fox jumps over the lazy dog.
+the quick brown fox jumps over the lazy dog.
+the quick brown fox jumps over the lazy dog.
+the quick brown fox jumps over the lazy dog.
+
+'''
+
+STRINGS ARE IMMUTABLE
+---------------------
+
+st = "hello world"
+
+st = "Hello World" (invalid and throws an error)
+
+---------------------------------------------------------------------------
+
+class Product:
+
+	def __init__(self, prodname):
+		self.prodname = prodname
+
+	
+	#getter_method
+
+	def get_details(self):	
+		print(f"The name of the product is :{self.prodname}")
+	
+
+	#setter_method	
+	def Change_name(self, pname):
+		self.prodname = pname
+
+
+prod1 = Product('Pepsi')
+
+prod1.get_details()
+
+prod1.Change_name("Thumbs_up")
+
+
+Data Structures
+===============
+1. List
+2. Dictionary
+3. Tuple
+4. Set
+
+
+
+List
+----
+lists are similar to arrays
+
+
+arrays?
+------
+1. memory allocation is contigious
+
+2. collection of homogenous data
+
+
+List
+----
+1. collection of hetrogenous data
+
+2. memory allocation is not contigious
+
+3. its an ordered collection
+
+4. its mutable
+
+5. it is subscriptable
+
+6. it is enclosed in [ ]
+
+
+
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort' 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
