@@ -1,0 +1,92 @@
+l1 = [num for num in l1 if num != 1]		# comprehension
+
+print(l1)
+
+
+from calendar import month_abbr
+month_list = list(month_abbr.lower())
+months = ['Dec', 'Sep', 'Aug',  'Nov', 'Feb', 'Apr', 'Jan', 'Mar', 'Jun', 'May', 'Jul', 'Oct']
+
+sorted(months,key=month_list.index)
+
+
+--------------------------------------------------------------
+
+my_dict = {'jan': 1, 'feb':2, 'mar':3, 'apr':4, 'may':5, 'jun':6, 'jul':7 , 'aug':8, 'sep':9, 'oct':10, 'nov':11, 'dec':12}     
+
+print(sorted(months, key=lambda x: my_dict.get(x)))  
+
+my_dict.get(x) is more safe code than my_dict[x]....
+
+
+-----------------------------------------------------------
+
+Dictionary
+----------
+is also called as associative array
+
+		  0    1    2    3    4  
+ar = ['a', 'b', 'c', 'd', 'e']
+
+
+dct = {0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e'}
+
+
+key = 0, 1, 2, 3, 4
+
+values = a, b, c, d, e
+
+
+keys can be anything - user defined
+
+Dictionary
+----------
+a. keys should always be unique
+
+b. unordered collection
+
+c. mutable
+
+d. enclosed in {k1: v1, k2: v2, k3: v3......}
+
+
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+
+Tuple
+-----
+is a immutable list
+
+tuples are enclosed in ()
+
+
+Set
+---
+1. sets are colletion of unique values
+
+2. sets are not subsrciptable
+
+3. sets are unordered collection
+
+4. sets are mutable
+
+5. sets are enclosed in {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
